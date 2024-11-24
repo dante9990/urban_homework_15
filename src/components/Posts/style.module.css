@@ -1,0 +1,19 @@
+.container {
+    border: 3px solid var(--orange);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid var(--orange);
+    padding: 10px;
+    border-radius: 20px;
+}

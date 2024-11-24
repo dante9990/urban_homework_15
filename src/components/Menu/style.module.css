@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    background: var(--black2);
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+}
+
+.menuItem {
+    padding: 10px;
+    border-bottom: 2px solid var(--orange);
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.menuItem:last-child {
+    border-bottom: none;
+}
+
+.menuItem:hover {
+    background: var(--orange);
+    color: var(--black2);
+}
+
+.menuItem:active {
+    transition: all 0.2s ease-in;
+    transform: scale(0.7);
+}
+
+@media (max-width: 580px) {
+    .container {
+        right: 110px;
+        top: 150px;
+    }
+}

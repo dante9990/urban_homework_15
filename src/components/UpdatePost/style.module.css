@@ -1,0 +1,35 @@
+.container {
+    border: 1px solid var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background: var(--black2);
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    align-self: flex-end;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: var(--black2);
+}
+
+.btn:active {
+    transition: all 0.2s ease-in;
+    transform: scale(0.7);
+}

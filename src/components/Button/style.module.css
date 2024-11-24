@@ -1,0 +1,20 @@
+.btn {
+    width: 150px;
+    height: 40px;
+    background: var(--black2);
+    color: var(--orange);
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: var(--black2);
+}
+
+.btn:active {
+    transition: all 0.2s ease-in;
+    transform: scale(0.7);
+}

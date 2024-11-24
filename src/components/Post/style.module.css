@@ -1,0 +1,42 @@
+.container {
+    border: 1px solid var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.title {
+    font-size: 24px;
+    max-width: 50%;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.favorite {
+    width: 30px;
+    height: 30px;
+    background: url('../../assets/icons/star-empty.svg') no-repeat;
+    background-size: contain;
+}
+
+.full {
+    background: url('../../assets/icons/star.svg') no-repeat;
+}
+
+.headerPost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 580px) {
+    .headerPost {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

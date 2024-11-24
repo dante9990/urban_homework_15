@@ -1,0 +1,6 @@
+.container {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--orange);
+}
